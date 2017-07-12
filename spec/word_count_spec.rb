@@ -7,6 +7,6 @@ describe('String#word_count') do
   end
 
   it "takes a sentence and splits it into an array" do
-    expect("cow it grass".split).to(eq(["cow", "eat", "grass"]))
+    expect("cow eat grass".split).to(eq(["cow", "eat", "grass"]))
   end
 end
